@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="C:\Users\win\javascript\index.css">
+    <link rel="stylesheet" href="C:\Users\win\hllo\index.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    
+   <div class="container-1">
+        <h2 >Age in Days Calculator</h2>
+      
+    <div class="flexboxcontainer1">
+        
+        
+    <div >
+        <button class="btn btn-primary"   onclick="agee()" >Clickme</button>
+    </div>
+    <div >
+       <button class="btn btn-danger" onclick="reset()" >Reset</button>
+    </div>
+  </div>
+  <div class="flexboxcontainer1">
+    <div id="flexresult"></div>
+
+    </div>
+</div>
+
+<!--<div class="container-2">
+    <h2>pic generator</h2>
+    <button class="btn btn-success" id="cat-generator" onclick="gener()">generate pic</button>
+    <div class="flexboxcontainer2" id="flexcat">
+        <img src="https://thecatapi.com/api/images/get?format=src&type=gif" alt="cat image">
+   
+        
+        
+        
+    </div>
+
+</div>-->
+<div class="container3">
+  <h2>Rock,paper,scissors game</h2>
+  <div  class="flexcontainer" id="flexdivcontainer">
+      <img id="rock" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFF8prUe82TNl8F1D2WxLH_h16QxpmVDc6TQ&usqp=CAU" height="150" width="150" alt="" onclick="javasf(this)">
+      <img id="paper" src="paper.jpg" height="150" width="150" alt="" onclick="javasf(this)">
+      <img id="scissors" src="scissors.jpg" height="150" width="150" alt=""  onclick="javasf(this)">
+
+  </div>
+</div>
+ 
+  
+ 
+
+    <script src="index.js"></script>
+    
+</body>
+</html>
